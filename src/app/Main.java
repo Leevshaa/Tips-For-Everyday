@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         //Просимо користувача обрати день тижня
-        System.out.print("\nВітаю! Введіть день тижня: ");
+        System.out.print("\nВітаю! Введіть день тижня зі списку: ");
         String userDay = scanner.nextLine().trim().toUpperCase();
 
         //Створюємо змінну day типу Day, в яку передаємо користувацьке
